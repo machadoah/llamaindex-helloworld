@@ -1,0 +1,21 @@
+[tool.poetry]
+name = "llamaindex-helloworld"
+version = "0.1.0"
+description = ""
+authors = ["Antonio Henrique Machado <antoniohenriquemachado08@gmail.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.12.4"
+llama-index = "^0.10.59"
+python-dotenv = "^1.0.1"
+llama-index-readers-web = "^0.1.23"
+html2text = "^2024.2.26"
+
+
+[tool.poetry.group.dev.dependencies]
+ignr = "^2.2"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
